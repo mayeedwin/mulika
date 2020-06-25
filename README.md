@@ -6,10 +6,6 @@
 npm i mulika 
 ```
 
-### [Live Playground](https://npm.runkit.com/mulika)
-
-Launch Playground [Here](https://npm.runkit.com/mulika)
-
 ### Specification...
 
 All variables must be provided, all are required!
@@ -23,6 +19,9 @@ mulika.expect(message, func, expected_value);
 ```
 
 ### Example...
+
+Launch Playground [Here](https://npm.runkit.com/mulika)
+
 ```js
 // Require mulika...
 const mulika = require("mulika");
