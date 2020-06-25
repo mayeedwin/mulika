@@ -12,7 +12,7 @@ All variables must be provided, all are required!
 
 ```js
 // Type check...
-mulika.typeCheck({ type: type, value: variable });
+mulika.typeCheck({ type: type, value: value });
 
 // Other tests...
 mulika.expect(message, func, expected_value);
