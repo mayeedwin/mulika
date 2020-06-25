@@ -1,6 +1,6 @@
 {
   "name": "mulika",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Lightiest & tiniest javascript test tool",
   "main": "src/index.js",
   "directories": {
