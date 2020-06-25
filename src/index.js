@@ -29,7 +29,7 @@ ${line_path}`.red;
       const stack = err.stack.split("\n");
       const line_path = stack[2].split("/");
       callback_col = `${callback}`.yellow;
-      console.log(`Expected ${message} not ${callback_col}
+      console.log(`❌  Expected ${message} not ${callback_col}
 ${line_path}`.red);
     }
   },
