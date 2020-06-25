@@ -19,6 +19,9 @@ mulika.expect(message, func, expected_value);
 ```
 
 ### Example...
+
+Launch Playground [Here](https://npm.runkit.com/mulika)
+
 ```js
 // Require mulika...
 const mulika = require("mulika");
