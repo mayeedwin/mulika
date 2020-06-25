@@ -1,4 +1,4 @@
-const mulika = require("./src/index");
+const mulika = require("../src/index");
 
 mulika.typeCheck({ type: "number", value: true });
 mulika.typeCheck({ type: "boolean", value: true });
@@ -12,6 +12,3 @@ mulika.expect(
 function add(a, b) {
     return a + b;
 }
-
-
-
