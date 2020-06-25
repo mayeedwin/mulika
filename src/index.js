@@ -23,13 +23,13 @@ ${line_path}`.red;
   expect(message, callback, check) {
     let callback_col;
     if (callback === check) {
-      console.log(`✔️  Expected ${message}`.green);
+      console.log(`✔️ Expected ${message}`.green);
     } else {
-      const err = new Error(`❌  Test Failed`);
+      const err = new Error(`❌ Test Failed`);
       const stack = err.stack.split("\n");
       const line_path = stack[2].split("/");
       callback_col = `${callback}`.yellow;
-      console.log(`❌  Expected ${message} not ${callback_col}
+      console.log(`❌ Expected ${message} not ${callback_col}
 ${line_path}`.red);
     }
   },
