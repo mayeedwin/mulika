@@ -1,0 +1,25 @@
+{
+  "name": "mulika",
+  "version": "1.0.0",
+  "description": "Lightiest in-browser test tool",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mulika"
+  },
+  "keywords": [
+    "mulika",
+    "maye",
+    "mayeedwin",
+    "tests",
+    "jest"
+  ],
+  "author": "Maye Edwin",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "fs": "0.0.1-security"
+  }
+}
