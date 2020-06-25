@@ -6,6 +6,10 @@
 npm i mulika 
 ```
 
+### [Live Playground](https://npm.runkit.com/mulika)
+
+Launch Playground [Here](https://npm.runkit.com/mulika)
+
 ### Specification...
 
 All variables must be provided, all are required!
