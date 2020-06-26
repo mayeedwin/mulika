@@ -15,13 +15,13 @@ Minimal in-browser UI add-on to your pages! Google Chrome / MS Edge recommended.
 Above any files to be tested in your html page.
 
 ```js
-   <script src="https://pwafire.org/code/mulika/@latest.js"></script>
+<script src="https://pwafire.org/code/mulika/@latest.js"></script>
 ```
 
 #### Add styles to your page
 
 ```html
- <link rel="stylesheet" href="https://pwafire.org/code/mulika/@latest.css" />
+<link rel="stylesheet" href="https://pwafire.org/code/mulika/@latest.css" />
 ```
 
 ### Specification...
