@@ -9,6 +9,8 @@ npm i mulika
 ### Mulika CDN
 Minimal in-browser UI add-on to your pages! 
 
+![Mulika Terminal](./assets/mulikates.png)
+
 #### Add the scripts 
 Above any files to be tested in your html page.
 
