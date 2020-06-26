@@ -1,6 +1,6 @@
 {
   "name": "mulika",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Lightiest & tiniest javascript test tool",
   "main": "src/index.js",
   "directories": {
@@ -20,5 +20,14 @@
   "license": "MIT",
   "dependencies": {
     "colors": "^1.4.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayeedwin/mulika.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mayeedwin/mulika/issues"
+  },
+  "homepage": "https://github.com/mayeedwin/mulika#readme"
 }

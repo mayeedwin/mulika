@@ -6,6 +6,22 @@
 npm i mulika 
 ```
 
+### Mulika CDN
+Minimal in-browser UI add-on to your pages! 
+
+#### Add the scripts 
+Above any files to be tested in your html page.
+
+```js
+   <script src="https://pwafire.org/code/mulika/@latest.js"></script>
+```
+
+#### Add styles to your page
+
+```html
+ <link rel="stylesheet" href="https://pwafire.org/code/mulika/@latest.css" />
+```
+
 ### Specification...
 
 All variables must be provided, all are required!
