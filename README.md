@@ -9,7 +9,7 @@ npm i mulika
 ### Mulika CDN
 Minimal in-browser UI add-on to your pages! Google Chrome / MS Edge recommended.
 
-![Mulika Terminal](./assets/mulikaterminal.png)
+![Mulika Terminal](https://raw.githubusercontent.com/mayeedwin/mulika/master/assets/mulikaterminal.png)
 
 #### Add the scripts 
 Above any files to be tested in your html page.
