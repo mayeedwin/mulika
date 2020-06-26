@@ -11,18 +11,34 @@ Minimal in-browser UI add-on to your pages! Google Chrome, MS Edge recommended a
 
 ![Mulika Terminal](https://raw.githubusercontent.com/mayeedwin/mulika/master/assets/mulikaterminal.png)
 
-#### Add the scripts 
-Above any files to be tested in your html page.
+#### Add the scripts above any files to be tested in your html page.
 
 ```js
 <script src="https://pwafire.org/code/mulika/@latest.js"></script>
 ```
 
-#### Add styles to your page
+#### Add styles to your html page
 
 ```html
 <link rel="stylesheet" href="https://pwafire.org/code/mulika/@latest.css" />
 ```
+
+#### Add the html component at the bottom of your html page
+
+```html
+<section id="mulika" class="mulika">
+    <div class="top">
+        <div class="btns">
+            <span class="circle red"></span>
+            <span class="circle yellow"></span>
+            <span class="circle green"></span>
+            <span class="mulika-title">Mulika Tests</span>
+        </div>
+    </div>
+    <pre class="tests" id="tests"></pre>
+</section>
+```
+
 
 ### Specification...
 
