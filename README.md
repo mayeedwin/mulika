@@ -42,7 +42,7 @@ Minimal in-browser UI add-on to your pages! Google Chrome, MS Edge recommended a
 
 #### Configuring for in-browser mulika
 
-In your test js file, you need to enable ***debug/dev mode** and **start mulika** first as shown below,
+In your test js file, you need to enable **debug/dev mode** and **start mulika** first as shown below,
 all at the top of the test file.
 
 ```js
