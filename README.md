@@ -7,6 +7,7 @@ npm i mulika
 ```
 
 ### Mulika CDN
+
 Minimal in-browser UI add-on to your pages! Google Chrome, MS Edge recommended anf Firefox.
 
 ![Mulika Terminal](https://raw.githubusercontent.com/mayeedwin/mulika/master/assets/mulikaterminal.png)
@@ -39,6 +40,19 @@ Minimal in-browser UI add-on to your pages! Google Chrome, MS Edge recommended a
 </section>
 ```
 
+#### Configuring for in-browser mulika
+
+In your test js file, you need to **start mulika*** and enable ***debug/dev mode** first as shown below,
+all at the top of the test file.
+
+```js
+
+// Mulika...
+mulika.debug = true;
+mulika.start();
+
+//...
+```
 
 ### Specification...
 
