@@ -24,7 +24,7 @@ Minimal in-browser UI add-on to your pages! Google Chrome, MS Edge recommended a
 <link rel="stylesheet" href="https://pwafire.org/code/mulika/@latest.css" />
 ```
 
-#### Add the html component at the bottom of your html page
+#### Add the html component at the bottom of your html page in the body tag, **before any scripts in your page**.
 
 ```html
 <section id="mulika" class="mulika">
