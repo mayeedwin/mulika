@@ -63,7 +63,7 @@ All variables must be provided, all are required!
 mulika.typeCheck({ type: type, value: value });
 
 // Other tests...
-mulika.expect(message, func, expected_value);
+mulika.expect(message, value, assertion);
 ```
 
 ### Example...
