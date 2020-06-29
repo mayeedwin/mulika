@@ -20,17 +20,17 @@ ${line_path}`.red;
     }
   },
   // Testing...
-  expect(message, callback, check) {
-    let callback_col;
-    if (callback === check) {
+  expect(message, value, assertion) {
+    let value_col;
+    if (value === assertion) {
       console.log(` ✔️  Expected ${message}`.green);
     } else {
       const err = new Error(`❌ Test Failed`);
       const stack = err.stack.split("\n");
       const line_path = stack[2].split("/");
-      callback_col = `${callback}`.yellow;
+      value_col = `${value}`.yellow;
       console.log(
-        ` ❌ Expected ${message} not ${callback_col}
+        ` ❌ Expected ${message} not ${value_col}
 ${line_path}`.red
       );
     }
