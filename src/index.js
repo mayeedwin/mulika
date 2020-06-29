@@ -19,7 +19,7 @@ ${line_path}`.red;
       console.log(result);
     }
   },
-  // Testing...
+  // Other tests...
   expect(message, value, assertion) {
     let value_col;
     if (value === assertion) {
