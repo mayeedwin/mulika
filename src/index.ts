@@ -4,18 +4,19 @@ const mulika = {
   // Type check...
   typeCheck(item: { value: any; type: string }) {
     try {
-      let result, item_col;
+      let result;
+      let itemCol;
       const type = Object.prototype.toString.call(item.value).slice(8, -1);
-      item_col = `${item.type.toLowerCase()}`.yellow;
+      itemCol = `${item.type.toLowerCase()}`.yellow;
       if (type.toLowerCase() === item.type.toLowerCase()) {
-        result = ` ✔️  Passed type check of typeof ${item_col}`.green;
+        result = ` ✔️  Passed type check of typeof ${itemCol}`.green;
         console.log(result);
       } else {
         const err = new Error(` ❌ Failed Type Check`);
         const stack = err.stack.split('\n');
-        const line_path = stack[2].split('/');
-        result = ` ❌ Expected typeof ${item_col}, not ${type.toLowerCase()}
-${line_path}`.red;
+        const linePath = stack[2].split('/');
+        result = ` ❌ Expected typeof ${itemCol}, not ${type.toLowerCase()}
+${linePath}`.red;
         console.log(result);
       }
     } catch (error) {
@@ -24,18 +25,18 @@ ${line_path}`.red;
   },
   // Other tests...
   expect(message: string, value: any, assertion: any) {
-    let value_col;
+    let valueCol;
     try {
       if (value === assertion) {
         console.log(` ✔️  Expected ${message}`.green);
       } else {
         const err = new Error(`❌ Test Failed`);
         const stack = err.stack.split('\n');
-        const line_path = stack[2].split('/');
-        value_col = `${value}`.yellow;
+        const linePath = stack[2].split('/');
+        valueCol = `${value}`.yellow;
         console.log(
-          ` ❌ Expected ${message} not ${value_col}
-  ${line_path}`.red,
+          ` ❌ Expected ${message} not ${valueCol}
+  ${linePath}`.red,
         );
       }
     } catch (error) {
