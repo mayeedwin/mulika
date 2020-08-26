@@ -1,6 +1,6 @@
 {
   "name": "mulika",
-  "version": "1.1.14",
+  "version": "1.1.14-alpha.1",
   "description": "Lightiest & tiniest javascript test tool",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
