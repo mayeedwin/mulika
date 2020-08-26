@@ -1,13 +1,23 @@
 {
   "name": "mulika",
-  "version": "1.1.13",
+  "version": "1.1.14",
   "description": "Lightiest & tiniest javascript test tool",
-  "main": "src/index.js",
-  "directories": {
-    "test": "tests"
-  },
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "esm"
+  ],
   "scripts": {
-    "build": "mulika"
+    "test": "jest --config jestconfig.json",
+    "build": "tsc && tsc -p tsconfig.browser.json",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "tslint -p tsconfig.json",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "keywords": [
     "mulika",
@@ -19,9 +29,12 @@
   "author": "Maye Edwin",
   "license": "MIT",
   "dependencies": {
+    "@types/node": "^14.6.0",
     "colors": "^1.4.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "typescript": "^4.0.2"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mayeedwin/mulika.git"
